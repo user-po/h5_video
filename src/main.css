@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("./iconfont/iconfont.eot?t=1590117385937"); /* IE9 */
+  src: url("./iconfont/iconfont.eot?t=1590117385937#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAR8AAsAAAAACbgAAAQvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDSAqGHIUWATYCJAMYCw4ABCAFhG0HZxtbCBEVnJfJvkiwbS1sj8Y9msZx0vnYLzWSrgke+O+0PxfjwNMF7GnX6cJ8MtLHTzgJEHDG2AAmbf7K9y+u5akfkTBRc4fy7cijL6S9fCFdLx39cfjTP8/HtPn+mi5zzSZ1URd24QcKaIyJi6xA4sQS4JbhtS51QY9DAC7lqYvo2r3vUGw05DgBiLmzZkzCjnnRJTiB7TBzLtWIPRjYcrt8Ddjtfr/4mcbCBomhIKcOnN5tKh1zpUu2qCAfMNZGoOsvDLBXgQLqAhrE2tzocpRfrYvClX+DpjcQwkaic6VzVXNjc/tLtuTzxIwkKQjpujX9w1MYSBAm2BoCbF+LsYM6UwQBuaoiaMiNFUFBbr9aiVGyBbxIcJo9LgwD/yAaA7buXgKNwEBW9cld4hnXTcUikSUzDhdmMoeyqanTLb7UgSA9bSpf+mCxP2Oa2S/aZQLB1eLrQgw7aKti7uEelK65bjZutF8Jrnre0ANFfn9EBf+plZJrxGGblk0NFfUrcHKN5x5+qIU/PazdePGwNf7lwuqrD8VTmAevwt++Ipua6GbfKitPvu15ky4+eP22ME49MTN7KKMOH/Y8OSk44A5XI4oPMuzQhVSQfvr94L2OBzh40X/2w8IPhh67UBCk7wYND3D0Ypl7C9c8/34lfea9ri98UNk4/+ECeaz58kqVrlW4FjddlSrrhkBNgtfLgzbngeWv0+HjvyPxsvHI/a+8eqSgcsH2V1+5Px7/u1oZDffqK9tJR155dS6j0b0duW01jVXv6q1Y1aqJONKodL3STZ4+NciKD4s3jw6LhZidd/b66w5WicvhMl7lYHC7KiM/lMnhKv9te+dRe7j9qHMw6DAbpZyfZt4yTrFfcd/2r1+JWs2G1l63A8kPbWZFr1w/Vi/7mhnjF/5Gy0aLG0ktfls4oojYu5FFvXv7Cd9yLPI2LyeSMdZCDlRT5aeQp4qUcHHPqK7R1fV4PbVSRX6ynyFTrejbCdG2v9meBuCTX6c5OJOnaaf9U2zU1v1SupprtGIgPlNLq5tHIgCTsRjwJsyuvgF+pGSCL/qyp2v3g8AmHYLEohwobKoiNbYuGHg0BRObDuBShx5XeyRZjEJoB6jNZgSCGLdBEuFJUMR4Hamxn4NBhl/BJCYUuNg+u7vlmfvo9KGiErSg/4AMZ2cE5NQbfEXfoqpRg0v/xLpRAeZhSjZeMGPt44zt2y8iDlzlBM/oaRgjQ6l8QCPDKlL24+jyPmkwnLpTDyqkCGQB7Q8gBsucvbU4TX39K+Q1kVJLVpWVP6FqQzsHs8FUA/lizbVWncvem2/eQghHHeVULAHPEEZRrzJQ8g86QIYYrC3Kxd6I13N1rcP49nSV5wAXuatZaWOdz+6msqbrL2eXQtn/N7JqjZx/pNmp7OcL2zghCZ1Ruj/6VweYyb7rAAA=")
+      format("woff2"),
+    url("./iconfont/iconfont.woff?t=1590117385937") format("woff"),
+    url("./iconfont/iconfont.ttf?t=1590117385937") format("truetype"),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+      url("./iconfont/iconfont.svg?t=1590117385937#iconfont") format("svg"); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconguanbi:before {
+  content: "\e61a";
+}
+
+.iconquanpingzuidahua:before {
+  content: "\e786";
+}
+
+.iconbofang1:before {
+  content: "\e65c";
+}
+
+.iconduomeitiicon-:before {
+  content: "\e624";
+}
+
+.iconzanting:before {
+  content: "\e693";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+}
+body {
+  height: 2000px;
+  background-color: #f5f5f5;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#list {
+  width: 1226px;
+  margin: 20px auto;
+}
+#list .list-wrap div {
+  position: relative;
+}
+#list .list-wrap {
+  width: 1240px;
+}
+#list .list-wrap img {
+  width: 100%;
+  height: 100%;
+}
+#list .list-wrap i {
+  position: absolute;
+  bottom: 10px;
+  left: 19px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  width: 32px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
+#list .list-wrap li {
+  float: left;
+  width: 296px;
+  height: auto;
+  margin-right: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+#list .list-wrap li:hover i {
+  background-color: #ff6700;
+}
+#list .list-wrap h3 {
+  font-size: 12px;
+  text-align: center;
+  padding: 30px 0;
+}
